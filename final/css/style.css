@@ -1,0 +1,600 @@
+.overlay{
+    overflow: hidden;
+}
+.tarjeta1:hover{
+        padding: 2px;
+        margin-right:4px;
+        transition: 0.4s;
+}
+html, body{
+    width: 100%;
+    overflow-x: hidden;
+}
+body{
+    background-image: url("../images/fondo1.jpg");
+    background-size: 100%;
+}
+p{
+    margin: 0;
+}
+.tituloLogin{
+    margin-top: 2%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    text-align: center;
+    font-feature-settings: 'kern' off, 'liga' off;
+    color: #FFFFFF;
+    mix-blend-mode: screen;
+    animation: rotate 3s infinite;
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+@keyframes rotate{
+    0%, 100% {
+    transform: rotate(2deg);
+    }
+    50% {
+    transform: rotate(-2deg);
+    }
+}
+.contenidoLogin{
+    background: rgba(0, 0, 0, 0.8);
+}
+.user {
+    background-color: #6c757d00;
+    border-color: #6c757d00;
+}
+.dropdown-toggle::after{
+    content: none;
+}
+.boton{
+    background: rgba(0, 0, 0, 0.8);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.gris{
+    background: rgba(36, 36, 36, 0.8) !important;
+ 
+}
+.boton:hover{
+    border: 1px solid white;
+}
+.boton:hover, .linkSubscripcion:hover{
+    color: #FFFFFF;
+}
+element.style {
+    vertical-align: none !important;
+}
+.form-control {
+    border-radius: 1em !important;
+}
+.estiloLetra{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.preguntaSuscripcion, .linkSubscripcion{
+    font-size: 18px;
+}
+.linkSubscripcion{
+    text-decoration-line: underline;
+}
+.tituloVistazo{
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+.pelisUltimos{
+    display: flex;
+}
+.tarjeta{
+    display: inline-block;
+}
+
+.infor{
+    display: flex;
+}
+
+.circuloUno, .circuloDos{
+    border-radius: 100px;
+    display: inline-block;
+}
+
+
+/******************** REPRODUCIR *********************/
+
+.fondoRepro{
+    background-image: url(../images/fondoReproducir.png) !important; 
+    background-repeat:initial; 
+    background-size: 100%;
+}
+/******************** Suscripcion *********************/
+
+.contenedorSuscripcion{
+    background: rgba(0, 0, 0, 0.8);
+}
+.pasos{
+    color: #754DCA;
+    font-size: 23px;
+}
+.atrasPasos{
+    width: 50px;
+}
+.titulo .estiloLetra{
+    font-size: 24px;
+}
+.bg-light, .menudesplegable{
+    background: rgba(0, 0, 0, 0.61)!important;
+}
+.menudesplegable{
+    background: rgba(129, 25, 150, 0.788)!important;
+}
+.dropdown-item{
+    color: white!important;
+}
+.dropdown-item:hover{
+    background-color: rgba(129, 25, 150, 0.788)!important;
+}
+.estabarra{
+    background: rgb(0, 0, 0)!important;
+   
+}
+.notificacionBorde{
+    border-bottom: 1px solid black;
+}
+.estrenoTitulo{
+    color: black;
+    font-weight: bolder;
+}
+.userJuan{
+    font-weight: bolder;
+}
+.estabarra a{
+    color: white!important;
+}
+#netflics{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.74);
+}
+#logoN{
+    font-weight: bolder;
+    color: rgba(162, 29, 189, 0.788)!important;
+    border: 1px solid rgba(162, 29, 189, 0.788)!important;
+}
+.buscador {
+    background-color: rgba(137, 107, 201, 0.418);
+    border: 1px solid  rgba(95, 47, 201, 0.411);;
+}
+.pasos{
+    color: #754DCA;
+    font-size: 23px;
+}
+.pasouno{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.planes{
+    width: 100%;
+}
+.plan{
+    opacity: 0.8;
+}
+.seleccionado{
+    border: 3px solid #754DCA;
+    border-radius: 50px;
+}
+.tituloPaso{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+}
+.inputs{
+    margin-bottom: 0;
+}
+.avatar{
+    width: 80%;
+    opacity: 0.6;
+}
+.avatar:hover{
+   opacity: 1;
+}
+.filax{
+    display: flex;
+}
+.planElegidox{
+display: inline-block;
+}
+
+/*************************************HOME**********************************************/
+.bannerEstreno{
+    background-image: url(../images/animales.jpg);
+    margin-top: -5%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.bannerEstrenoMobile{
+    background-image: url(../images/animalesMobile.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.bannerEstreno .contenedorInfo{
+    background: rgba(37, 36, 36, 0.5);
+    border-radius: 5px;
+}
+.tituloEstreno{
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+.tituloInfo{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    font-size: 1.5em;
+
+}
+.anio{
+    font-weight: bolder;
+    font-size: 16px;  
+    border: 1px solid white;
+}
+ .texto, .textoSerie{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+.lista{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+.iconoInfoEstreno{
+    width: 24%;
+}
+.iconoLista{
+    width: 32px;
+}
+
+.iconoNext{
+    width: 50px;
+    height: 70px;
+}
+.divpeli{
+    position:relative;
+}
+.fotoPequeña{
+    width: 100%;
+}
+.iconosPeli, .barraDeTiempo{
+background-color: rgba(0, 0, 0, 0.72) !important;
+}
+
+.iconoPlayed, .iconoInfo, .iconoBorrar{
+    width: 52%;
+}
+.imagenPeli, .imagenPlay{
+    z-index: -1;
+    width: 100%;
+}
+
+.promo .estiloLetra{
+    font-size: 24px;
+}
+.nuevo{
+position: relative;
+z-index: 100;
+top: -50%;
+left: 35%;
+}
+
+.nuevo2{
+    position: relative;
+    z-index: 100;
+    top: -65px !important;
+    left: 35%;    
+}
+
+/*************************************MI LISTA**********************************************/
+.tarjeta{
+background-color: black;
+}
+
+.playTarjeta{
+    width: 50%;
+    z-index: 1;
+}
+.tarjeta .iconoInfo, .tarjeta .iconoBorrar{
+    width:23%;
+}
+
+/*************************************HOME PELICULAS**********************************************/
+
+.contenedorLista,  .contenedorPeliculas, .contenedorInfo{
+    background: rgba(0, 0, 0, 0.7);
+}
+.imagenplay:hover{
+    border-radius: 20%;
+}
+.playContinuarViendo{
+    width:5%;
+    height: 5%;
+}
+.barraDeTiempo{
+    width: 100%;
+}
+.infoCapitulo{
+    width: 35%;
+    height: 10%;
+    font-size:10px;
+    font-weight: bolder;
+}
+
+/****************** PELICULAS ******************/
+.card, .card-header{
+padding: 0px !important;
+}
+.card-body{
+margin: 0% !important;
+}
+.card-header .estiloLetra{
+    font-size: 16px;
+}
+.check{
+    color: white;
+}
+
+.checkeado{
+    background-color: rgba(255, 255, 255, 0.418);
+    border-radius: 50px;
+}
+
+.checkeado .estiloLetra{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sacarFiltro{
+    width: 23%;
+}
+.lineaMobile{
+    box-sizing: content-box;
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0 !important;
+    outline: 0;
+    box-shadow: none !important;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    text-align: center;
+    color: white;
+    opacity: 1;
+    border-bottom: 1px solid #57037e !important;
+}
+
+
+/******************NAVGEGADOR******************/
+
+li .milista{
+    padding-right: 10%;
+}
+
+/******************FOOTER******************/
+
+footer{
+    background-color: #000000;
+    height: 11%;
+    }
+.fb, .insta, .tw{
+    width: 35px;
+}
+ footer p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: #474343;
+    }
+    
+/******************FICHA SERIE******************/
+.bodyFicha{
+    background-color: gray;
+}
+
+.fondoDesktop{
+    background-image: url(../images/strangerInfo2.jpg); 
+    background-size: 100%;
+}
+
+.fondoMobile{
+    background-image: url(../images/strangerMobile.jpg); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.apto{
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    width: 3%;
+}  
+.apto .edad{
+    font-weight: 400;
+    font-size: 12px;
+}
+.infoSerie{
+    font-size: 20px;
+    line-height: 30px;
+}
+.iconoEstrellaVacia, .iconoEstrellaRellena{
+    width: 40px;
+}
+.iconoEstrellaRellena{
+    animation-name: mover;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: initial;
+    
+    animation-play-state: running;
+}
+    
+@keyframes mover{
+    0%, 100% {
+    transform: rotate(12deg);
+    }
+    50% {
+    transform: rotate(-12deg);
+    }
+}
+.calificar{
+    width: 38px;
+}
+
+.comentarios .estiloLetra{
+    font-size: 14px;
+}
+.preguntaRecomendacion{
+    font-size:18px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.anio{
+    font-size: 18px;
+}
+.playBoton{
+    width:20px;
+}
+.mostrarme{
+    border: 2px solid black;
+}
+.comentarios{
+    border-radius: .25rem;
+}
+
+.comentarios .nombre{
+font-weight: 500;
+}
+
+.labelEstrella{
+font-size: 28px;
+color:grey;
+margin-bottom: 0% !important;
+}
+
+input[type = "radio"]{ 
+    display:none;
+}
+.clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+  
+ .labelEstrella:hover,
+.labelEstrella:hover ~ .labelEstrella {
+    color: orange;
+}
+  
+  input[type="radio"]:checked ~ .labelEstrella {
+    color: orange;
+  }
+.envio{
+    background-color:  rgba(110, 110, 110, 0.281);
+}
+
+
+/***********************REPRODUCIR PELICULA*******************/
+
+.contenedorRepro{
+    background: rgba(110, 110, 110, 0.281);
+position: absolute;
+bottom: 0;
+}
+.iconosRepro{
+    width: 40%;
+}
+.imgPlay{
+    width: 60%;
+}
+
+
+/************************* MEDIA QUERY ************/
+@media screen and (max-width: 400px){
+
+.iconoLista{
+    width: 55px;
+}
+.tituloInfoFicha{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 0px;
+}
+.fotoPequeña{
+    width: 100%;
+}
+
+.avatar{
+    width: 50%;
+}
+.iconosRepro{
+    width: 80%;
+}
+.imgPlay{
+    width: 100%;
+}
+.video{
+    position: absolute;
+    transform: rotate(90deg);
+    transform-origin: bottom left;
+    width: 100vh;
+    height: 100vw;
+    margin-top: -100vw;
+    object-fit: cover;
+    z-index: 4;
+    visibility: visible;
+}
+.fondoRepro {
+    background-image: rotate (90deg);
+}
+.contenedorInfo{
+    margin-left:8%;
+}
+.temporadas{
+    margin-top: 3%;
+}
+.iconoEstrellaVacia, .iconoEstrellaRellena{
+    margin-right:30%;
+}
+
+}
+   
+.bodyError{
+    background:black;
+}
+.tituloError{
+    font-size:48px;
+}
+
+@keyframes nombreExpand {
+    from {font-size: 16px;}
+    to {font-size: 20px;}
+  }
+  
+  /* The element to apply the animation to */
+  .nombre:hover{
+    animation-name: nombreExpand;
+    animation-duration: 1s;
+  }
